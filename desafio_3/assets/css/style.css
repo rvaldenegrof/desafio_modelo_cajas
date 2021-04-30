@@ -21,7 +21,7 @@
     height: 200px;
     box-sizing: border-box;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     position: relative;
     float: left;
 }
@@ -50,7 +50,7 @@
     height: 200px;
     box-sizing: border-box;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     position: relative;
     float: left;
 }
@@ -84,7 +84,7 @@
     height: 200px;
     box-sizing: border-box;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     position: relative;
     float: left;
 }
@@ -123,7 +123,7 @@
     width: 300px;
     height: 200px;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     float: left;
 }
 
