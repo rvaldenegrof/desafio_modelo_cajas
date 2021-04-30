@@ -1,7 +1,17 @@
-.banderas {
+.container {
     width: 100%;
     padding: 0;
     margin: 0;
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+
+.banderas {
+    width: 75%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
 }
 /*ESPAÑA*/
 .espana {
@@ -12,6 +22,8 @@
     box-sizing: border-box;
     margin-right: 10px;
     margin-bottom: 10px;
+    position: relative;
+    float: left;
 }
 
 .espana__amarillo-h {
@@ -20,6 +32,7 @@
     height: 67px;
     box-sizing: border-box;
     margin-top: 67px;
+    position: relative;
 }
 
 /*DINAMARCA*/
@@ -32,6 +45,7 @@
     margin-right: 10px;
     margin-bottom: 10px;
     position: relative;
+    float: left;
 }
 
 .blanco-h {
@@ -60,6 +74,7 @@
     margin-right: 10px;
     margin-bottom: 10px;
     position: relative;
+    float: left;
 }
 
 .red-v {
@@ -92,6 +107,7 @@
     height: 200px;
     margin-right: 10px;
     margin-bottom: 10px;
+    float: left;
 }
 
 .center-c {
@@ -102,7 +118,6 @@
     margin-top: 66px;
     margin-left: 105px;
     position: absolute;
-
 }
 
 
