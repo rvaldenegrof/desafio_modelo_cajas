@@ -1,14 +1,14 @@
-.container {
+/* .container {
     width: 100%;
     padding: 0;
     margin: 0;
     display: inline;
     align-items: center;
     text-align: center;
-}
+} */
 
 .banderas {
-    width: 50%;
+    width: 100%;
     padding: 0;
     margin: 0;
     display: inline-block;
@@ -32,8 +32,15 @@
     height: 67px;
     box-sizing: border-box;
     margin-top: 67px;
+    position: absolute;
+}
+
+.espana__texto {
+    margin-top: 210px;
     position: relative;
 }
+
+
 
 /*DINAMARCA*/
 .dinamarca {
@@ -62,6 +69,11 @@
     height: 100%;
     margin-left: 30%;
     position: absolute;
+}
+
+.dinamarca_texto {
+    margin-top: 210px;
+    position: relative;
 }
 
 /*EMIRATOS*/
@@ -98,6 +110,11 @@
 }
 
 
+.emiratos__texto {
+    margin-top: 10px;
+}
+
+
 /*JAPON*/
 .japon {
     background-color: white;
@@ -120,6 +137,10 @@
     position: absolute;
 }
 
+.japon__texto {
+    margin-top: 210px;
+    position: relative;
+}
 
 
 /* .flag {
