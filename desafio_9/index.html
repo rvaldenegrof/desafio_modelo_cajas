@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 9</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cabecera {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        
+        nav {
+            float: left;
+            width: 30%;
+            background: #ccc;
+            padding: 20px;
+            height: 100%;
+        }
+
+        nav ol {
+            list-style-type: disc;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: white;
+        }
+
+        /* limpia elementos flotantes después de las columnas */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        } 
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+            nav {
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecera">
+        <h1>Título página</h1>
+    </header>
+    <section>
+        <nav>
+            <h3>Menú</h3>
+          <ul>
+            <li><a href="#">Ítem-1</a></li>
+            <li><a href="#">Ítem-2</a></li>
+            <li><a href="#">Ítem-3</a></li>
+            <li><a href="#">Ítem-4</a></li>
+            <li><a href="#">Ítem-5</a></li>
+          </ul>
+        </nav>
+        
+        <article>
+          <h1>Sub-título</h1>
+          <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          <p>Standing on the River Thames, London has been a major settlement for k to its founding by the Romans, who named it Londinium.</p>
+        </article>
+      </section>
+
+      <footer>
+        <p>&copy; Todos los derechos reservados</p>
+      </footer>
+</body>
+</html>
